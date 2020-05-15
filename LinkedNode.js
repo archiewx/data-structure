@@ -1,5 +1,5 @@
 class LinkedNode {
-  constructor(val, next) {
+  constructor(val, next = null) {
     this.value = val;
     this.next = next;
   }
@@ -9,4 +9,4 @@ class LinkedNode {
   }
 }
 
-export default LinkedNode
+module.exports = LinkedNode
